@@ -1,113 +1,109 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,800,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,800,900&display=swap");
 
-*
-{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins', san-serif;
+	font-family: "Poppins", san-serif;
 }
 
-section{
+section {
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
 	background: url(img/rupo.jpg);
 	background-size: cover;
 	background-position: center;
-display: flex;
-justify-content: flex-start;
-align-items: center;
-padding: 100px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 100px;
 }
 
-header{
+header {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 30px 100px;
+	padding: 10px 100px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-header .logo{
-position: relative;
-font-size: 2em;
-color: #000;
-text-transform: uppercase;
-font-weight: 700;
-text-decoration: none;
-letter-spacing: 1px;
+header .logo {
+	position: relative;
+	font-size: 2em;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	letter-spacing: 1px;
 }
 
-header .navigation{
+header .navigation {
 	position: relative;
 	display: flex;
 }
 
-header .navigation li{
+header .navigation li {
 	list-style: none;
-	  font-weight: bold;
+	font-weight: bold;
 }
 
-
-header .navigation li a{
+header .navigation li a {
 	display: inline-block;
 	color: #000;
 	margin-right: 30px;
-	text-decoration: none; 
+	text-decoration: none;
 }
 
-header .navigation li a:hover{
-	color: #E5E500;
+header .navigation li a:hover {
+	color: #e5e500;
 }
 
-.content
-{
+.content {
 	max-width: 600px;
 }
 
-.content .contentBx h2{
+.content .contentBx h2 {
 	font-size: 3em;
-	color: #000	;
+	color: #000;
 	line-height: 1.2em;
 }
 
-.content .contentBx p{
+.content .contentBx p {
 	font-size: 1.1em;
 	color: #000;
 	font-weight: 300;
 	margin: 20px 0;
 }
 
-.content .contentBx a{
+.content .contentBx a {
 	display: inline-block;
 	padding: 10px 30px;
-	background: #FFB71B;
+	background: #ffb71b;
 	color: #000;
 	text-decoration: none;
 	font-weight: 300;
 	letter-spacing: 5px;
 }
 
-.sci{
+.sci {
 	position: absolute;
 	bottom: 0px;
 	display: flex;
 	left: 75px;
-
 }
 
-.sci li{
+.sci li {
 	list-style: none;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.sci li a{
+.sci li a {
 	position: relative;
 	display: inline-block;
 	margin-right: 20px;
@@ -115,52 +111,48 @@ header .navigation li a:hover{
 	transform: scale(0.5);
 }
 
-@media (max-width: 991px){
-	header
-	{
+@media (max-width: 991px) {
+	header {
 		/*position: absolute;
 		top: 0;
 		left: 0;
 		width: 100px;*/
 		padding: 15px 40px;
-
 	}
-	section{
+	section {
 		padding: 40px;
 		background: url(img/fondo3.jpg);
 		background-size: cover;
 		background-position: center;
 	}
-	.content .contentBx h2{
+	.content .contentBx h2 {
 		font-size: 2.5em;
 	}
-	.content .contentBx p{
+	.content .contentBx p {
 		font-size: 1em;
 	}
-	header .navigation{
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background: #000;
-z-index: 10;
-display: none;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+	header .navigation {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #000;
+		z-index: 10;
+		display: none;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 	}
 
-header .navigation.active{
-	display: flex;
-}
-	header .navigation li a 
-	{
+	header .navigation.active {
+		display: flex;
+	}
+	header .navigation li a {
 		font-size: 24px;
 		margin: 10px 0;
-
 	}
-	.toggleMenu{
+	.toggleMenu {
 		position: relative;
 		width: 30px;
 		height: 30px;
@@ -170,9 +162,8 @@ header .navigation.active{
 		background-repeat: no-repeat;
 		cursor: pointer;
 		z-index: 11;
-
 	}
-	.toggleMenu.active{
+	.toggleMenu.active {
 		background: url(img/close.png);
 		background-position: center;
 		background-size: 25px;
@@ -180,8 +171,8 @@ header .navigation.active{
 	}
 }
 
-   .content .contentBx h3{
+.content .contentBx h3 {
 	font-size: 1.8em;
-	color: #E3E2E2;
+	color: #e3e2e2;
 	line-height: 1em;
 }
