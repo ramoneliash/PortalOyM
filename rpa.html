@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>O&M</title>
+	<link rel="stylesheet" href="styleOyM.css">
+
+</head>
+<body>
+<section>
+	<header>
+
+		<a href="#" class="logo">O&M</a>
+		<div class="toggleMenu" onclick="toggleMenu();"></div>
+<ul class="navigation">
+	<li><a href="index.html">INICIO</a></li>
+	<li><a href="crm.html">CRM</a></li>
+	<li><a href="rpa.html">RPA</a></li>
+		<li><a href="process.html">PROYECTOS</a></li>
+	
+	<li><a href="gp.html">GESTION DE PROCESOS</a></li>
+	<li><a href="blog.html">BLOG</a></li>
+
+
+
+</ul>
+	</header>
+
+
+	<div class="content">
+	<div class="contentBx">
+		<h2>RPA: ROBOTIC PROCESS AUTOMATION
+<br>
+		¿Qué es RPA?</h2>
+		<p style="text-align: justify;">Software que ejecuta tareas de forma automatizada (tareas repetitivas) realizadas por un humano en un computador.</p>
+
+		<p style="text-align: justify;">Simula las interacciones de un usuario humano en diferentes sistemas.</p>
+		<a href="rpa1.html">ENTRAR</a>
+	</div>
+	</div>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img  src="img/rpa.jpg" width="550"
+     height="320" >
+	
+</section>
+<script type="text/javascript">
+	function toggleMenu(){
+		const toggleMenu = document.querySelector('.toggleMenu');
+		const navigation = document.querySelector('.navigation');
+		toggleMenu.classList.toggle('active');
+		navigation.classList.toggle('active');
+	}
+</script>
+</body>
+</html>
