@@ -38,7 +38,7 @@ padding: 100px;
 
 
 	.text-muted {
-     background: #B0B0B0;
+     background: #000;
    -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
      
@@ -59,7 +59,7 @@ header{
 header .logo{
 position: relative;
 font-size: 2em;
-color: #E3E2E2;
+color: #000;
 text-transform: uppercase;
 font-weight: 700;
 text-decoration: none;
@@ -79,7 +79,7 @@ header .navigation li{
 
 header .navigation li a{
 	display: inline-block;
-	color: #E3E2E2;
+	color: #000;
 	margin-right: 30px;
 	text-decoration: none; 
 }
@@ -237,7 +237,7 @@ img{
 height: ; 
 width: 100%;
 float: left;
- text-align:center; 
+ text-align:left; 
 background: #FFFFFF;
 
 }
